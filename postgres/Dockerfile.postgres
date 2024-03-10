@@ -1,0 +1,12 @@
+# Используем базовый образ PostgreSQL
+FROM postgres:13.3
+
+# Установка переменной окружения для задания кодировки и локали
+ENV POSTGRES_DB=sf
+ENV POSTGRES_USER=postgres
+ENV POSTGRES_PASSWORD=postgres
+
+
+
+EXPOSE 5432
+
