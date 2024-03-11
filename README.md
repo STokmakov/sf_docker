@@ -1,4 +1,4 @@
-# Установка проета с использованием чистого Docker (без использования docker-compos):
+# Установка проекта с использованием чистого Docker (без использования docker-compos):
 
 docker run --name sf_postgres -i -t -d sergeytokmakov/sf_postgres:latest
 
